@@ -8,7 +8,7 @@ Welcome to Learn Linux with Examples's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Content:
+   :glob:
 
    01_use_man
    02_file_manage
