@@ -68,7 +68,9 @@ man页面所属的分类标识(常用的是分类1和分类3) ::
     printf               (3)  - formatted output conversion  
     printf               (3p)  - print formatted output  
     printf [builtins]    (1)  - bash built-in commands, see bash(1)  
+    
 我们看到printf在分类1和分类3中都有；分类1中的页面是命令操作及可执行文件的帮助；而3是常用函数库说明；如果我们想看的是C语言中printf的用法，可以指定查看分类3的帮助：  
+
 ::
 
     $man 3 printf
@@ -100,6 +102,7 @@ eg:查找make程序安装路径::
 查看程序的搜索路径::
 
     $whereis command
+
 当系统中安装了同一软件的多个版本时，不确定使用的是哪个版本时，这个命令就能派上用场；
 
 

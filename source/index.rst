@@ -8,10 +8,10 @@ Welcome to Learn Linux with Examples's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Content:
 
-    01_use_man.rst
-    02_file_manage
+   01_use_man
+   02_file_manage
 
 Indices and tables
 ==================
