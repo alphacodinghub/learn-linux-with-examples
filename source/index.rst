@@ -10,7 +10,8 @@ Welcome to Learn Linux with Examples's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+    01_use_man.rst
+    02_file_manage
 
 Indices and tables
 ==================
