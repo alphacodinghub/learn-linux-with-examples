@@ -188,17 +188,33 @@ htmlhelp_basename = 'Learn Linux with Examples'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-
+latex_engine = "xelatex"
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    # 'preamble': '',
+    'papersize': 'a4paper',
+    'utf8extra': '',
+    'inputenc': '',
+    'cmappkg': '',
+    'fontenc': '',
+    'preamble': r'''
+        \usepackage{xeCJK}
+        \parindent 2em
+        \setcounter{tocdepth}{3}
+        \renewcommand\familydefault{\ttdefault}
+        \renewcommand\CJKfamilydefault{\CJKrmdefault}
+    ''',
 }
+
+
+# latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+# 'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+# 'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+# 'preamble': '',
+# }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -304,7 +320,7 @@ epub_copyright = u'2030, Colin'
 
 # A tuple containing the cover image and cover page html template filenames.
 #epub_cover = ()
-epub_cover = ('_static/cover_linuxtools.jpg', '')
+#epub_cover = ('_static/cover_linuxtools.jpg', '')
 
 # A sequence of (type, uri, title) tuples for the guide element of content.opf.
 #epub_guide = ()
