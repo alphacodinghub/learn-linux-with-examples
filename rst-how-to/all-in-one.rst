@@ -7,6 +7,10 @@
     *****************************************
     附录：reStructuredText简明教程 
     *****************************************
+    .. sidebar:: sidebar Title
+
+        .. contents:: 目录
+        .. section-numbering:: 
 
 .. sidebar:: sidebar Title
 
