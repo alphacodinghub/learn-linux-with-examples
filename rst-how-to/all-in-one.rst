@@ -15,7 +15,6 @@
 .. sidebar:: sidebar Title
 
     .. contents:: 目录
-    .. section-numbering:: 
 
 
 文章层次结构一般由标题、章、节、小节、小小节等对象组成. 
