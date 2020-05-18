@@ -8,4 +8,5 @@
     :numbered: 2
 
     all-in-one
+    reST-cheet-sheet
 
