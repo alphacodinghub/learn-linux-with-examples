@@ -30,6 +30,7 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'matplotlib.sphinxext.plot_directive',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
@@ -195,6 +196,7 @@ latex_elements = {
     'inputenc': '',
     'cmappkg': '',
     'fontenc': '',
+    'extraclassoptions': 'openany,oneside',
     'preamble': r'''
         \usepackage{xeCJK}
         \parindent 2em

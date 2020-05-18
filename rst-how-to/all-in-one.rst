@@ -302,6 +302,13 @@ i) 行一
 A. 大写字母
 #. 行二
 
+-a              command-line option "a"
+-b file         options can have arguments
+                and long descriptions
+--long          options can be long also
+--input=file    long options can also have
+                arguments
+/V              DOS/VMS-style options too
 
 名称解释列表：
 ^^^^^^^^^^^^^^^^^^^^
@@ -637,3 +644,20 @@ True   True   True
 +------------+ span rows. | - contain |
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
+
+Extensions
+-----------------
+
+.. plot::
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(-6, 6, 1000)
+    y = np.sin(x)
+    plt.plot(x, y)
+    plt.title("sin(x)")
+
+    # 最后必须要调用 show 方法, 才能显示
+    plt.show()
+    
