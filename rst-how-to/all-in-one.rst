@@ -648,16 +648,17 @@ True   True   True
 Extensions
 -----------------
 
-.. plot::
+::
 
-    import matplotlib.pyplot as plt
-    import numpy as np
+    .. plot::
 
-    x = np.linspace(-6, 6, 1000)
-    y = np.sin(x)
-    plt.plot(x, y)
-    plt.title("sin(x)")
+        import matplotlib.pyplot as plt
+        import numpy as np
 
-    # 最后必须要调用 show 方法, 才能显示
-    plt.show()
-    
+        x = np.linspace(-6, 6, 1000)
+        y = np.sin(x)
+        plt.plot(x, y)
+        plt.title("sin(x)")
+
+        # 最后必须要调用 show 方法, 才能显示
+        plt.show()
