@@ -20,6 +20,7 @@ Welcome to Learn Linux's documentation!
    sphinx/index
    anaconda/index
    docker/index
+   tools/index
 
 Indices and tables
 ==================
