@@ -9,6 +9,7 @@ _build/
 .metadata
 bin/
 tmp/
+.bak/
 *.tmp
 *.bak
 *.swp
