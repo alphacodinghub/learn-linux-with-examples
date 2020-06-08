@@ -1,0 +1,24 @@
+create a new repository on the command line
+echo "# learn-linux-with-examples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/alphacodinghub/learn-linux-with-examples.git
+git push -u origin master
+
+
+
+git init
+
+git fetch origin
+
+git checkout gh-pages
+
+git push
+
+sudo vmhgfs-fuse .host:/VMshared /mnt/shared/ -o allow_other -o uid=1000
+
+
+docker run --rm -v /home/robert/learn-linux-with-examples:/docs sphinxdoc/sphinx-latexpdf make latexpdf
+
+docker run --rm -v /mnt/shared/git/public/learn-linux-with-examples:/docs sphinxdoc/sphinx-latexpdf make latexpdf
