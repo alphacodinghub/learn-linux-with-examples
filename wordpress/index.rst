@@ -1,11 +1,11 @@
-.. _tools:
+.. _wordpress:
 
-Linux Tools
+WordPress Development
 ============================
 
 .. toctree::
     :maxdepth: 3
     :numbered: 3
 
-    vs-code
-    valet
+    plugin-dev
+    

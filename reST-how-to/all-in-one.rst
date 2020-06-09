@@ -662,3 +662,31 @@ Extensions
 
         # 最后必须要调用 show 方法, 才能显示
         plt.show()
+
+Index-genrating markup
+-----------------------
+| **Using Directive:**
+|
+|   **`.. index:: <entries>`**
+|
+|   This directive contains one or more index entries. Each entry consists of a type and a value, separated by a colon.
+
+For example::
+
+    .. index:: BNF, grammar, syntax, notation
+
+This creates four index entries.
+
+You can mark up “main” index entries by prefixing them with an exclamation mark. The references to “main” entries are emphasized in the generated index. For example::
+
+    .. index:: ! Python
+
+| **Using Role:**
+|
+|   **`:index:`**
+|
+|   This role sets the link target directly where it is used.
+
+For example::
+
+    This is a normal reST :index:`paragraph` that contains one index entry `paragraph`.

@@ -21,6 +21,7 @@ Welcome to Learn Linux's documentation!
    anaconda/index
    docker/index
    tools/index
+   wordpress/index
 
 Indices and tables
 ==================

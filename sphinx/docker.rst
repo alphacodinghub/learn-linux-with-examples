@@ -43,3 +43,4 @@ References
 ================
 
 #. `Sphinx Docker images <https://hub.docker.com/r/sphinxdoc/sphinx-latexpdf>`_
+#. `Sphinx Docker image by David DIDIER <https://gitlab.com/ddidier/docker-sphinx-doc>`_
