@@ -31,6 +31,26 @@ To set up the documentation sources, run::
 
 Follow the prompts to complete the settings. It will create a source directory with `conf.py` and a master document, `index.rst`.
 
+Useful commands::
+
+  make html
+  make man
+  make epub
+
+To use live build html function, install sphinx-autobuild::
+
+  pip install sphinx-autobuild
+
+You can then use this command to automatically generate html whenever source files change::
+
+  sphinx-autobuild src dest
+
+where `src` is the main source file (index.rst or content.rst) folder, `dest` is the `html` folder. e.g.::
+
+  sphinx-autobuild  .  _build/html
+  # sphinx will monitor source files in the current folder and build html automatically.
+  
+
 Documents
 ================
 

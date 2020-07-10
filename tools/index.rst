@@ -9,3 +9,6 @@ Linux Tools
 
     vs-code
     valet
+    gulp
+    gulp-sass
+    nodejs

@@ -8,4 +8,6 @@ WordPress Development
     :numbered: 3
 
     plugin-dev
-    
+    resources
+    membership
+    mycred

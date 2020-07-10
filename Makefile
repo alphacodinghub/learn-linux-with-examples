@@ -15,6 +15,11 @@ help:
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS). 
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+livehtml:
+  sphinx-autobuild $(SOURCEDIR) $(BUILDDIR)/html
+
+# visit the webpage served at http://127.0.0.1:8000. Each time a change to the documentation source is # # detected, the HTML is rebuilt and the browser automatically reloaded.
