@@ -18,6 +18,9 @@ Usages
 
   $ docker run --rm -v /path/to/document:/docs alphacodinghub/sphinx sphinx-quickstart
 
+.. info:: This may not work properly as command `sphinx-quickstart` requires 
+  input from stdin. It is recommended to loginto the docker container to run commands.
+
 if you work in the current directory, you can use::
 
   $ docker run --rm -v $PWD:/docs alphacodinghub/sphinx-latexpdf sphinx-quickstart
@@ -25,6 +28,14 @@ if you work in the current directory, you can use::
 To access to the Docker container::
 
   $ docker run --rm -it -v $PWD:/docs alphacodinghub/sphinx-latexpdf bash
+  then run sphinx commands, e.g.
+  $ sphinx-quickstart
+  or
+  $ make html
+  or
+  $ make epub
+  or
+  $ make latexpdf
 
 Build HTML document::
 
