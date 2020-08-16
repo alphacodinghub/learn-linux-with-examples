@@ -16,7 +16,9 @@ From a terminal, run the following commands for initial settings::
   $ cd Sites
   $ valet domain dev
   $ valet park
-
+  //secure site: blog.dev
+  $ valet secure blog
+  
 Install mariadb & phpMyAdmin
 ------------------------------
 **Install mariadb**::
@@ -89,3 +91,7 @@ The output of the above command looks like::
     valet link
 
   visit: `http://phpmyadmin.dev` to manage the db.
+
+References
+----------------
+1. `Valet Linux <https://cpriego.github.io/valet-linux/>`_

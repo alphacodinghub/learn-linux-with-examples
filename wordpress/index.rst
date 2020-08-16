@@ -11,3 +11,4 @@ WordPress Development
     resources
     membership
     mycred
+    site-component-recommendation
