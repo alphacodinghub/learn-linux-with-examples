@@ -95,3 +95,4 @@ The output of the above command looks like::
 References
 ----------------
 1. `Valet Linux <https://cpriego.github.io/valet-linux/>`_
+#. `Laravel Valet <https://laravel.com/docs/7.x/valet>`_
